@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Characterizing the Noise-Lag Tradeoff of Inertia Estimation: A Methodology Applied to Virtual Synchronous Generators",
+    "description": "<b>1st author.</b> The decrease in power system inertia caused by the increased penetration of inverter-based resources (renewable energy) necessitate better methods of inertia estimation. Inertia estimation usually requires the use of the rate of change of frequency measurement, which comes with noise that usually is smoothed with a low-pass filter. However, a higher filter time constant additionally causes delay and possible signal distortions. We establish a framework for characterizing this tradeoff. Several visualizations provide a new angle to evaluating inertia estimation methods and underscores the importance of considering this tradeoff when implementing inertia estimation in the real world.",
+    "image": "publication_imgs/inertia.png",
+    "links": [
+      { "label": "link to publication (unpublished, Github for now)", "icon": "assets/icons/link-original.svg", "url": "https://github.com/Scarlett315/characterize-virtual-inertia-estimation-noise-lag" }
+    ]
+  },
+  {
+    "title": "Wavelet-Based Multiscale Anisotropy-Aware Cell-Cell Communication Inference and Niche Segmentation (2026)",
+    "description": "<b>2nd author. Presented in ICCBB 2025.</b> Cell–cell communication (CCC) analysis in spatial transcriptomics (ST) should reflect how tissue architecture channels or blocks signaling, yet most methods assume isotropic diffusion and ignore directional constraints from tumor–stroma interfaces, aligned collagen, and anisotropic extracellular space. We introduce Wavelet-Based Multiscale Anisotropy-Aware Cell-Cell Communication Inference and Niche Segmentation (WACCCN), the first anisotropic CCC inference model, which uses wavelet-derived orientation features from histology and gene expression to build anisotropic, morphology-gated kernels for CCC and integrates these with a multi-view autoencoder for niche segmentation.",
+    "image": "publication_imgs/wacccn.png",
+    "links": [
+      { "label": "link to publication", "icon": "assets/icons/link-original.svg", "url": "https://dl.acm.org/doi/10.1145/3789938.3789958" }
+    ]
+  }
+]

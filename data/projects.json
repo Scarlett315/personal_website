@@ -1,0 +1,21 @@
+[
+  {
+    "title": "\"Lock-in\" Box",
+    "description": "A phone box submitted for the IEEE SSCS Arduino Contest's prompt \"Solutions to Everyday Challenges\". Along with the ability to set a time that the box will be locked for, a reed switch circuit checks for tampering and an IMU detects phone vibration to unlock the box (i.e. for emergencies). Version 2 features a much (, much) better design with a custom PCB and new box parts modeled in Onshape (neither of which I knew how to make before!).",
+    "image": "",
+    "links": [
+      { "label": "Medium article", "icon": "assets/icons/medium-original.svg", "url": "#" },
+      { "label": "code & files", "icon": "assets/icons/github-original.svg", "url": "#" }
+    ]
+  },
+
+  {
+    "title": "Science Olympiad Electric Vehicle",
+    "description": "My first experience with electronics! I participated in the Electric Vehicle event of Science Olympiad, where I was responsible for finding and putting together the electronic parts and programming the robot, which was done from scratch and on a relatively low level. Learned a ton about Arduino, PID, how to solder, motor selection, etc.",
+    "image": "project_imgs/electric_vehicle.webp",
+    "links": [
+      { "label": "Medium article", "icon": "assets/icons/medium-original.svg", "url": "https://medium.com/@scarlettchen315/2026-science-olympiad-electric-vehicle-process-documentation-ccfd4a8ce149?sharedUserId=scarlettchen315" },
+      { "label": "code & files", "icon": "assets/icons/github-original.svg", "url": "https://github.com/Scarlett315/Electric-Vehicle" }
+    ]
+  }
+]

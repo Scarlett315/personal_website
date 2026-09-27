@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scarlett Chen — Portfolio</title>
+<meta name="description" content="Electronics &amp; engineering projects, research, and photography.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=12">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="bio">
+    <div class="bio-text">
+      <h1 class="name">Scarlett Chen</h1>
+      <p class="tagline">Prospective electrical engineer interested in power electronics and signals</p>
+    </div>
+
+    <div class="bio-links">
+      <a class="bio-link" href="assets/resume.pdf" target="_blank" rel="noopener">
+        <span>resume</span>
+        <img class="bio-icon" src="assets/icons/resume-original.svg" alt="">
+      </a>
+      <a class="bio-link" href="https://medium.com/@scarlettchen315" target="_blank" rel="noopener">
+        <span>Medium</span>
+        <img class="bio-icon" src="assets/icons/medium-original.svg" alt="">
+      </a>
+      <a class="bio-link" href="https://linkedin.com/in/scarlett-chen-663986244" target="_blank" rel="noopener">
+        <span>LinkedIn</span>
+        <img class="bio-icon" src="assets/icons/linkedin-original.svg" alt="">
+      </a>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="projects" role="tab" aria-selected="true">Projects</button>
+    <button class="tab" data-tab="publications" role="tab" aria-selected="false">Publications</button>
+    <button class="tab" data-tab="photography" role="tab" aria-selected="false">Photography</button>
+  </nav>
+</header>
+
+<main>
+
+  <section id="projects" class="panel" role="tabpanel">
+    <div class="panel-inner">
+      <div id="projects-list" class="entries"></div>
+    </div>
+  </section>
+
+  <section id="publications" class="panel" role="tabpanel" hidden>
+    <div class="panel-inner">
+      <div id="publications-list" class="entries"></div>
+    </div>
+  </section>
+
+  <section id="photography" class="panel" role="tabpanel" hidden>
+    <div class="panel-inner">
+
+      <div class="photo-intro">
+        <p>I also love taking photos!<br>Here are some of the ones I'm most proud of:</p>
+        <a class="photo-instagram" href="https://www.instagram.com/scarlettchen.photo/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener">
+          <img class="row-icon" src="assets/icons/instagram-original.svg" alt="">
+          <span>*My Instagram is also linked here! :D</span>
+        </a>
+      </div>
+
+
+      <div id="photo-grid" class="photo-grid"></div>
+
+    </div>
+  </section>
+
+</main>
+
+<script src="js/main.js?v=3"></script>
+</body>
+</html>
