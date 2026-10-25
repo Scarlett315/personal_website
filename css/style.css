@@ -296,7 +296,6 @@ button {
 .photo-tile {
   margin: 0 0 0.9rem;
   break-inside: avoid;
-  border-radius: 4px;
   overflow: hidden;
 }
 
