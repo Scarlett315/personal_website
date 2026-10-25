@@ -102,6 +102,7 @@ button {
   font-weight: 500;
   font-size: 1.05rem;
   color: var(--link-color);
+  text-decoration: underline;
 }
 
 .bio-icon {
