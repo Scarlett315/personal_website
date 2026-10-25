@@ -38,5 +38,35 @@
     "image": "assets/photos/butterfly-bw.jpg",
     "alt": "Black and white photo of a butterfly in flight",
     "caption": "Long Island, at Lavender by the Bay. The black-and-white hides that lavender season had in fact passed..."
+  },
+  {
+    "image": "assets/photos/spring_flowers.jpg",
+    "alt": "Backlit pink magnolia buds on a branch",
+    "caption": "Magnolia buds in early spring"
+  },
+  {
+    "image": "assets/photos/long_island_fake_ghosts.jpg",
+    "alt": "Ghost-shaped lamps in a park at dusk, black and white",
+    "caption": "\"Ghosts\" in a park on Long Island"
+  },
+  {
+    "image": "assets/photos/flower_poster.jpg",
+    "alt": "Colorful orchid care advertisement posters",
+    "caption": "Orchid posters I liked the color of"
+  },
+  {
+    "image": "assets/photos/the_met.jpg",
+    "alt": "Reflections in the glass at a Native American art exhibit",
+    "caption": "The Met, Art of Native America exhibit"
+  },
+  {
+    "image": "assets/photos/ybk_pep_rally.jpg",
+    "alt": "Students cheering at a pep rally",
+    "caption": "Yearbook: pep rally"
+  },
+  {
+    "image": "assets/photos/ybk_vocal_jazz.jpg",
+    "alt": "A student singing into a microphone at a Vocal Jazz concert",
+    "caption": "Yearbook: Vocal Jazz concert"
   }
 ]
