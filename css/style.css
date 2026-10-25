@@ -79,7 +79,6 @@ button {
   font-weight: 500;
   font-size: var(--fs-tagline);
   color: var(--header-text);
-  max-width: 38rem;
   margin: 0;
 }
 
