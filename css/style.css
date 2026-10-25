@@ -79,7 +79,7 @@ button {
   font-weight: 500;
   font-size: var(--fs-tagline);
   color: var(--header-text);
-  white-space: nowrap;
+  max-width: 38rem;
   margin: 0;
 }
 
@@ -320,10 +320,6 @@ button {
   .bio {
     flex-direction: column;
     padding: 2rem 1.5rem 1.5rem;
-  }
-
-  .tagline {
-    white-space: normal;
   }
 
   .bio-links {

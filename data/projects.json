@@ -1,16 +1,23 @@
 [
   {
-    "title": "Audio Denoising (Prototype)",
-    "description": "",
+    "title": "Audio Denoising (Prototype; in progress!)",
+    "description": "FPGA-based audio denoiser. I designed Verilog modules for the Discrete Wavelet Transform, specificically the lifting scheme, to separate out and threshold high-frequency coefficients of the input signal. A sigma-delta output is smoothed by an RC filter and transmitted via Bluetooth. I also soldered the components onto a perfboard.",
     "image": "project_imgs/fpga_denoising.png",
     "links": "External Links: <a href=\"https://medium.com/@scarlettchen315/audio-denoising-and-amplification-part-1-prototype-ce53ce85aa54\">Medium Article</a>, <a href=\"https://github.com/Scarlett315/FPGA-Denoising\">Github</a>"
+  },
+
+  {
+    "title": "Hill Cipher 2x2 Encoder/Decoder ASIC (Beaver Works Summer Institute Capstone)",
+    "description": "Application-specific integrated circuit (ASIC) that encodes and decodes a 2x2 hill cipher. Group project with Joyce Xu, Brian Chen, and Minseo (Elle) Kim as part of BWSI's Basics of ASICs course. I helped to design the overall scheme and also the inverse or decoding section. This will be taped out as a real chip through TinyTapeout!",
+    "image": "project_imgs/asic.png",
+    "links": "External Links: <a href=\"https://github.com/Scarlett315/hill-cipher-asic-tinytapeout\">Github</a>"
   },
   
   {
     "title": "\"Lock-in\" Box",
-    "description": "A phone box submitted for the IEEE SSCS Arduino Contest's prompt \"Solutions to Everyday Challenges\". Along with the ability to set a time that the box will be locked for, a reed switch circuit checks for tampering and an IMU detects phone vibration to unlock the box (i.e. for emergencies). Version 2 features a much (, much) better design with a custom PCB and new box parts modeled in Onshape (neither of which I knew how to make before!).",
+    "description": "A phone box submitted for the IEEE SSCS Arduino Contest's prompt \"Solutions to Everyday Challenges\". Along with the ability to set a time that the box will be locked for, a reed switch circuit checks for tampering and an IMU detects phone vibration to unlock the box (i.e. for emergencies). Version 2 features a much better design with a custom PCB and new box parts modeled in Onshape.",
     "image": "project_imgs/lock_in.png",
-    "links": "External Links: <a href=\"#\">Medium Article</a>, <a href=\"#\">Github</a>"
+    "links": "External Links: <a href=\"https://medium.com/@scarlettchen315/lock-in-box-2-functional-version-dc13c8e9974b\">Medium Article (Final Version)</a>, <a href=\"https://medium.com/@scarlettchen315/lock-in-box-1-prototype-fe6755898552\">Medium Article (Prototype)</a>, <a href=\"https://github.com/Scarlett315/sscs_arduino_contest_26\">Github</a>"
   },
 
   {
