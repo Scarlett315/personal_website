@@ -121,7 +121,7 @@ button {
 }
 
 .section-nav a {
-  color: var(--link-color);
+  color: var(--accent);
   font-size: 0.9rem;
   letter-spacing: 0.03em;
   text-decoration: underline;
