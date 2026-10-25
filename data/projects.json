@@ -10,7 +10,7 @@
     "title": "Hill Cipher 2x2 Encoder/Decoder ASIC (Beaver Works Summer Institute Capstone)",
     "description": "Application-specific integrated circuit (ASIC) that encodes and decodes a 2x2 hill cipher. Group project with Joyce Xu, Brian Chen, and Minseo (Elle) Kim as part of BWSI's Basics of ASICs course. I helped to design the overall scheme and also the inverse or decoding section. This will be taped out as a real chip through TinyTapeout!",
     "image": "project_imgs/asic.png",
-    "links": "External Links: <a href=\"https://github.com/Scarlett315/hill-cipher-asic-tinytapeout\">Github</a>"
+    "links": "External Links: <a href=\"https://github.com/Scarlett315/hill-cipher-asic-tinytapeout\">Github</a>, <a href=\"https://canva.link/u5sv1bz5j4p24lx\">Presentation</a>"
   },
   
   {
