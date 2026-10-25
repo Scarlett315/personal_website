@@ -1,46 +1,15 @@
-const tabs = document.querySelectorAll(".tab");
-const panels = document.querySelectorAll(".panel");
-
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    tabs.forEach((t) => {
-      t.classList.remove("active");
-      t.setAttribute("aria-selected", "false");
-    });
-    panels.forEach((panel) => {
-      panel.hidden = true;
-    });
-
-    tab.classList.add("active");
-    tab.setAttribute("aria-selected", "true");
-    document.getElementById(tab.dataset.tab).hidden = false;
-  });
-});
-
-function renderLinks(links) {
-  return (links || [])
-    .map(
-      (link) => `
-        <a class="row-link" href="${link.url}">
-          <img class="row-icon" src="${link.icon}" alt="">
-          <span>${link.label}</span>
-        </a>`
-    )
-    .join("");
-}
-
-function renderEntries(containerId, entries) {
+function renderEntries(containerId, entries, rowClass) {
   const container = document.getElementById(containerId);
   container.innerHTML = entries
     .map(
       (entry) => `
-      <article class="row">
+      <article class="${rowClass}">
         <div class="thumb">${entry.image ? `<img src="${entry.image}" alt="${entry.title}">` : ""}</div>
         <div class="row-body">
           <h2>${entry.title}</h2>
+          <p class="external-links">${entry.links || ""}</p>
           <p>${entry.description}</p>
         </div>
-        <div class="row-links">${renderLinks(entry.links)}</div>
       </article>`
     )
     .join("");
@@ -65,6 +34,6 @@ async function loadSection(url, render) {
   render(data);
 }
 
-loadSection("data/projects.json", (data) => renderEntries("projects-list", data));
-loadSection("data/publications.json", (data) => renderEntries("publications-list", data));
+loadSection("data/projects.json", (data) => renderEntries("projects-list", data, "project-row"));
+loadSection("data/publications.json", (data) => renderEntries("publications-list", data, "row"));
 loadSection("data/photography.json", renderPhotos);

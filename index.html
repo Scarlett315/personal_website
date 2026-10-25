@@ -7,8 +7,8 @@
 <meta name="description" content="Electronics &amp; engineering projects, research, and photography.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=12">
+<link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=17">
 </head>
 <body>
 
@@ -35,28 +35,31 @@
     </div>
   </div>
 
-  <nav class="tabs" role="tablist">
-    <button class="tab active" data-tab="projects" role="tab" aria-selected="true">Projects</button>
-    <button class="tab" data-tab="publications" role="tab" aria-selected="false">Publications</button>
-    <button class="tab" data-tab="photography" role="tab" aria-selected="false">Photography</button>
+  <nav class="section-nav">
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#photography">Photography</a>
   </nav>
 </header>
 
 <main>
 
-  <section id="projects" class="panel" role="tabpanel">
+  <section id="projects" class="content-section">
+    <h2 class="section-heading">Projects</h2>
     <div class="panel-inner">
       <div id="projects-list" class="entries"></div>
     </div>
   </section>
 
-  <section id="publications" class="panel" role="tabpanel" hidden>
+  <section id="publications" class="content-section">
+    <h2 class="section-heading">Publications</h2>
     <div class="panel-inner">
       <div id="publications-list" class="entries"></div>
     </div>
   </section>
 
-  <section id="photography" class="panel" role="tabpanel" hidden>
+  <section id="photography" class="content-section">
+    <h2 class="section-heading">Photography</h2>
     <div class="panel-inner">
 
       <div class="photo-intro">
@@ -75,6 +78,6 @@
 
 </main>
 
-<script src="js/main.js?v=3"></script>
+<script src="js/main.js?v=6"></script>
 </body>
 </html>
